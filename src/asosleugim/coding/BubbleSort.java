@@ -11,7 +11,7 @@ public class BubbleSort {
 		System.out.println("Unsorted:");
 		System.out.println(Arrays.toString(unsorted));
 
-		bubbleSort(unsorted);
+		bubbleSorting(unsorted);
 
 		// Arrays.sort(unsorted);
 
@@ -19,7 +19,7 @@ public class BubbleSort {
 
 	}
 
-	static void bubbleSort(int[] unsorted) {
+	static void bubbleSorting(int[] unsorted) {
 
 		for (int i = 0; i <= unsorted.length; i++) {
 
